@@ -1,0 +1,86 @@
+.movieDetails {
+  width: 780px;
+  max-width: 95%;
+  margin: 3rem auto 3rem auto;
+  background: #070608;
+  padding-bottom: .5rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+.current-poster img {
+  max-width: 100%;
+}
+
+.current-title {
+  margin: .5rem 0;
+}
+
+.current-details {
+  margin: 0 .5rem;
+}
+
+.current-title h2 {
+  color: #fff;
+}
+
+.current-type_rating {
+  display: flex;
+  justify-content: space-between;
+
+  margin: .5rem 0;
+}
+
+.current-type {
+  color: #c9c9c9;
+}
+
+.current-movie-avg {
+  color: #c9c9c9;
+}
+
+.current-overview {
+  color: #c9c9c9;
+  margin: 1rem 0;
+}
+
+.current-date {
+  color: #c9c9c9;
+}
+
+.current-popularity {
+  color: #c9c9c9;
+  margin: .5rem 0;
+}
+
+.goto-options a {
+  text-decoration: none;
+  font-family: 'Antic', sans-serif;
+  background: linear-gradient(to right, #232526, #414345);
+  padding: .5rem 1rem;
+  border-radius: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+
+  width: 150px;
+  text-align: center;
+
+  display: inline-block;
+
+}
+
+.goto-options a:active {
+
+  background: linear-gradient(to right, #000000, #434343);
+  color: #fff;
+
+}
+
+.goto-options {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0;
+}
+
+.currentMovie-avg {
+  color: #c9c9c9;
+}
